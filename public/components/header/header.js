@@ -3,7 +3,7 @@ export const createheader = () => {
   const body = document.querySelector('#app')
   body.innerHTML = `  <header>
   
-  <img src="./public/assets/pinterest-logo.png" class="logo">
+  <img src="./pinterest-logo.png" class="logo">
   <div class="mainheder">
   <div class="buttons">
     <button type="submit" class="incio">Inicio</button>
