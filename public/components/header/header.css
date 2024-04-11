@@ -163,6 +163,11 @@ header {
     height: 20svh;
   }
   .searchdiv {
-    top: 100px;
+    top: 90px;
+  }
+}
+@media (max-width: 400px) {
+  .searchdiv {
+    top: 80px;
   }
 }
