@@ -179,6 +179,6 @@ header {
 }
 @media (max-width: 400px) {
   .searchdiv {
-    top: 85px;
+    top: 80px;
   }
 }
