@@ -1,9 +1,9 @@
 import './header.css'
 export const createheader = () => {
   const body = document.querySelector('#app')
-  body.innerHTML = `  <header>
-  
-  <img src="./pinterest-logo.png" class="logo">
+
+  body.innerHTML = ` <header> 
+  <img class="logo" src="./assets/pinterest-logo.png">
   <div class="mainheder">
   <div class="buttons">
     <button type="submit" class="incio">Inicio</button>
@@ -48,7 +48,6 @@ export const createheader = () => {
       <span><i class="fa-solid fa-house"></i></span>
     </button>
   </div>
-</header>
-
+  </header>
 `
 }
