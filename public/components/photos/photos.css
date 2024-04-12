@@ -47,3 +47,8 @@
   top: 80px;
   width: 62px;
 }
+@media (max-width: 429px) {
+  .lovebutton {
+    left: 200px;
+  }
+}

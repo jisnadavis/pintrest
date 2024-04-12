@@ -38,8 +38,9 @@ body {
   flex-wrap: wrap;
   position: relative;
   top: 5svh;
-  left: 20px;
+  left: 0px;
   gap: var(--ppk-gap-l);
   padding: var(--ppk-padding-l);
   min-width: 350px;
+  margin: var(--ppk-margin-m);
 }

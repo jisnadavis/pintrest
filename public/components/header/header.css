@@ -13,6 +13,8 @@ header {
   width: 70px;
   height: 50px;
   border-radius: 30px;
+  position: relative;
+  left: 2%;
 }
 .lupa {
   font-size: 40px;
@@ -36,6 +38,7 @@ header {
   width: 90svw;
   height: 10svh;
   align-items: center;
+  min-width: 350px;
 }
 .buttons > button:first-child {
   background-color: black;
@@ -103,7 +106,7 @@ header {
     display: none;
   }
 }
-@media (max-width: 1094px) {
+@media (max-width: 1153px) {
   .logo {
     position: relative;
     left: 50%;
@@ -152,7 +155,7 @@ header {
     width: 60%;
   }
 }
-@media (max-width: 417px) {
+@media (max-width: 430px) {
   .buttons > button:nth-child(2) {
     display: none;
   }
@@ -165,9 +168,17 @@ header {
   .searchdiv {
     top: 90px;
   }
+  .buttons {
+    position: relative;
+    top: 30px;
+  }
+  .menu {
+    position: relative;
+    top: 30px;
+  }
 }
 @media (max-width: 400px) {
   .searchdiv {
-    top: 80px;
+    top: 85px;
   }
 }
